@@ -1,0 +1,201 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/Yekan.woff);
+  }
+
+  @font-face {
+    font-family: towfont;
+    src: url(../font/BetterGrade-519DV.ttf);
+  }
+body{
+    font-family: myFirstFont;
+    font-size: 15px;
+    background-color: #1d1d1d;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+    padding: 0px;
+    margin: 0px;
+}
+
+/* style nav-bar   */
+.header{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    background-color: #181818;
+    width: 15%;
+    text-align: center;
+    height: 100vh;
+    color: #85858a;
+}
+.img-logo{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-top: -15px;
+}
+.li-nav{
+    list-style: none;
+    padding: 20px 0px;
+    border-bottom: solid black 1px;
+}
+a{
+    text-decoration: none;
+    color:#85858a ;
+}
+a :hover{
+    /* color:#08fdd8 ; */
+    color: greenyellow;
+    transition: 0.3s;
+}
+.ul-nav{
+    padding: 0;
+}
+.show-header{
+    width: 100%;
+    display: flex;
+}
+.text-header{
+    width: 50%;
+}
+.link-contactus{
+    margin-top: 50px;
+}
+.svg-image{
+    width: 20px;
+    height: 20px;
+    padding: 0px 10px;
+}
+
+/* tag background html */
+.tag{
+    display: block;
+    font-size:x-large;
+    opacity: 1;
+    color: #515152;
+    margin-top: 10px;
+    font-family: towfont;
+}
+.html-tag-back::before{
+    content: "<html>";
+}
+.body-tag-back::before{
+    content: "<body>";
+    padding-right: 15px;
+}
+.h2-tag-back::before{
+    content: "<h2>";
+    padding-right: 20px;
+}
+.p-tag-back::before{
+    content: "<p>";
+    padding-right: 25px;
+}
+
+/* skilles title and about */
+
+.skills-text{
+    width: 40%;
+    align-items: center;
+    margin-right: 5px;
+}
+.title-skill{
+    color: #08fdd8;
+    margin-right: 25px;
+}
+
+
+.p-skills-about{
+    color: #fff;
+    font-size: small;
+    margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-chart{
+    width: 40%;
+    align-items: center;
+    padding: 10px;
+}
+.show-charts{
+    margin-bottom: 20px;
+}
+.show-front-end{
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.show-frontend-backend{
+    display: flex;
+}
+.fron-end{
+    width: 50%;
+    padding: 15px;
+    margin: 5px;
+    color: #ababab;
+    background-color: #2a2a2a;
+    font-size: small;
+}
+
+.fron-end h3{
+    color: #fff;
+}
+.backnend{
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    color: #ababab;
+    background-color: #2a2a2a;
+    font-size: small;
+}
+
+.backnend h3{
+    color: #fff;
+}
+
+
+
+
+
+h2 {
+    color: #fff;
+    text-transform: uppercase;
+    background: linear-gradient(to right,#08fdd8 40%, greenyellow 80%, #08fdd8 40%);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 10s linear infinite;
+    display: inline-block;
+  }
+    @keyframes textclip {
+      to {
+        background-position: 200% center;
+      }
+    }

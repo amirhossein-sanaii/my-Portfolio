@@ -1,11 +1,11 @@
 @font-face {
     font-family: myFirstFont;
-    src: url(./font/Yekan.woff);
+    src: url(../font/Yekan.woff);
   }
 
   @font-face {
     font-family: towfont;
-    src: url(./font/BetterGrade-519DV.ttf);
+    src: url(../font/BetterGrade-519DV.ttf);
   }
 body{
     font-family: myFirstFont;
@@ -20,6 +20,7 @@ body{
 /* style nav-bar   */
 .header{
     display: flex;
+    align-items: center;
 }
 .navbar{
     background-color: #181818;
@@ -27,6 +28,7 @@ body{
     text-align: center;
     height: 100vh;
     color: #85858a;
+    
 }
 .img-logo{
     width: 100%;
@@ -60,6 +62,11 @@ a :hover{
 }
 .link-contactus{
     margin-top: 50px;
+}
+.svg-image{
+    width: 20px;
+    height: 20px;
+    padding: 0px 10px;
 }
 
 /* style show Information */
@@ -111,10 +118,10 @@ a :hover{
     padding-right: 30px;
 }
 
-.svg-image{
-    width: 20px;
-    height: 20px;
-    padding: 0px 10px;
+
+.animetion-header{
+    align-items: center;
+    margin: auto;
 }
 /* animation title about me */
 h1 {

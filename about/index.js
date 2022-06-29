@@ -3,7 +3,7 @@ window.onload = function() {
     TagCanvas.Start('myCanvas','tags',{
       textColour: '#08fdd8',
       outlineColour: '#1d1d1d',
-      reverse: true,
+      reverse: false,
       depth: 0.8,
       maxSpeed: 0.05
     });
