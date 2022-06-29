@@ -1,0 +1,135 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./font/Yekan.woff);
+  }
+
+  @font-face {
+    font-family: towfont;
+    src: url(./font/BetterGrade-519DV.ttf);
+  }
+body{
+    font-family: myFirstFont;
+    font-size: 15px;
+    background-color: #1d1d1d;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+    padding: 0px;
+    margin: 0px;
+}
+
+/* style nav-bar   */
+.header{
+    display: flex;
+}
+.navbar{
+    background-color: #181818;
+    width: 15%;
+    text-align: center;
+    height: 100vh;
+    color: #85858a;
+}
+.img-logo{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-top: -15px;
+}
+.li-nav{
+    list-style: none;
+    padding: 20px 0px;
+    border-bottom: solid black 1px;
+}
+a{
+    text-decoration: none;
+    color:#85858a ;
+}
+a :hover{
+    /* color:#08fdd8 ; */
+    color: greenyellow;
+    transition: 0.3s;
+}
+.ul-nav{
+    padding: 0;
+}
+.show-header{
+    width: 100%;
+    display: flex;
+}
+.text-header{
+    width: 50%;
+}
+.link-contactus{
+    margin-top: 50px;
+}
+
+/* style show Information */
+.text-header{
+    padding: 20px;
+}
+
+.tag{
+    display: block;
+    font-size:x-large;
+    opacity: 1;
+    color: #515152;
+    margin-top: 20px;
+    font-family: towfont;
+}
+
+.html-tag-back::before{
+    content: "<html>";
+}
+
+.body-tag-back::before{
+    content: "<body>";
+    padding-right: 10px;
+}
+.h2-tag-back::before{
+    content: "<h2>";
+    padding-right:20px ;
+}
+
+.title-header{
+    margin-right: 25px;
+}
+
+.h2-tag-back-bottom::after{
+    content: "<h2>";
+    padding-right:20px ;
+}
+
+.p-tag-back::after{
+    content: "<p>";
+    padding: 0px 20px;
+    margin-top: 10px;
+}
+
+.p-tag-about{
+    color: #ffffff;
+    line-height: 1.5;
+    font-size: larger;
+    padding-right: 30px;
+}
+
+.svg-image{
+    width: 20px;
+    height: 20px;
+    padding: 0px 10px;
+}
+/* animation title about me */
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  background: linear-gradient(to right,#08fdd8 40%, greenyellow 80%, #08fdd8 40%);
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 10s linear infinite;
+  display: inline-block;
+}
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
