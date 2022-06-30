@@ -18,7 +18,7 @@ body{
 }
 
 /* style nav-bar   */
-.header{
+.section{
     display: flex;
     align-items: center;
 }
@@ -198,4 +198,38 @@ h2 {
       to {
         background-position: 200% center;
       }
+    }
+
+
+
+
+    .navar-chart{
+        height: 2px;
+        background-color: red;
+        width: 70%;
+    }
+    .it-chart{
+        margin-bottom: 15px;
+        color: #fff;
+    }
+
+    .html-css{
+        background-color: blue;
+        width: 70%;
+    }
+    .javascript{
+        background-color: yellow;
+        width: 60%;
+    }
+    .react{
+        background-color: #61dafb;
+        width: 20%;
+    }
+    .git-github{
+        background-color: #e94e31;
+        width: 40%;
+    }
+    .jest{
+        background-color:#944058 ;
+        width: 10%;
     }

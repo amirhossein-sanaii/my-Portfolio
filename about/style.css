@@ -18,7 +18,7 @@ body{
 }
 
 /* style nav-bar   */
-.header{
+.section{
     display: flex;
     align-items: center;
 }
